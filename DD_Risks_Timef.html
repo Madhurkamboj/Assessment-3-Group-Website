@@ -1,124 +1,472 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Alpha </title>
-    <link rel="stylesheet" href="css-reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Playfair+Display:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Alpha </title>
+  <link rel="stylesheet" href="css-reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Playfair+Display:ital@0;1&family=Roboto&display=swap" rel="stylesheet">
 
+  <style>
+  h2 {
+    color: white;
+    font-size: 1.5em;
+    /* font-style: oblique; */
+    font-weight: bold;
+  }
 
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    border: 1px solid #dddddd;
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    font-weight: bold;
+    border: 1px solid #dddddd;
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  tr:nth-child(odd) {
+    background-color: #6b6b6b;
+  }
+
+</style>
 
 </head>
 <body>
   <div class="header-container">
     <header>
-          <div class="logo">
-            <span>Team Alpha</span>
-              </div>
-              
-               <nav>
-    <div class="mybutton"><a href="index.html">TEAM PROFILE</a></div>
-     <div class="mybutton"><a href="TeamAlphaAgenda.html">MEETING AGENDA</a></div>
-    <div class="mybutton"><a href="CareerPlan.html">CAREER PLANS</a></div>
-    <div class="mybutton"><a href="Overview.html">OVERVIEW</a></div>
-    <div class="mybutton"><a href="DetailedDescription.html">DETAILED DESCRIPTION</a></div>
-    <div class="mybutton"><a href="SkillandJobs.html">SKILLS AND JOBS</a></div>
-    <div class="mybutton"><a href="GroupReflection.html">GROUP REFLECTION</a></div>
-   
+      <div class="logo">
+        <span>Team Alpha</span>
+      </div>
+
+      <nav>
+        <div class="mybutton"><a href="index.html">TEAM PROFILE</a></div>
+        <div class="mybutton"><a href="TeamAlphaAgenda.html">MEETING AGENDA</a></div>
+        <div class="mybutton"><a href="CareerPlan.html">CAREER PLANS</a></div>
+        <div class="mybutton"><a href="Overview.html">OVERVIEW</a></div>
+        <div class="mybutton"><a href="DetailedDescription.html">DETAILED DESCRIPTION</a></div>
+        <div class="mybutton"><a href="SkillandJobs.html">SKILLS AND JOBS</a></div>
+        <div class="mybutton"><a href="GroupReflection.html">GROUP REFLECTION</a></div>
 
 
 
 
 
-</nav>
 
-<div class="mob-wrapper">
-    <img src="bars.svg" alt=""
-    style="width:60px" class="bar">
+      </nav>
 
-    <div class="mob-nav">
-      <a href="index.html" class="nav-button">TEAM PROFILE</a>
-      <a href="TeamAlphaAgenda.html" class="nav-button">MEETING AGENDA</a>
-      <a href="CareerPlans.html" class="nav-button">CAREER PLANS</a>
-      <a href="Overview.html" class="nav-button">OVERVIEW</a>
-      <a href="DetailedDescription.html" class="nav-button">DETAILED DESCRIPTION</a>
-      <a href="SkillandJobs.html" class="nav-button">SKILLS AND JOBS</a>
-      <a href="GroupReflection.html" class="nav-button">GROUP REFLECTION</a>
-     
+      <div class="mob-wrapper">
+        <img src="bars.svg" alt=""
+        style="width:60px" class="bar">
 
-
+        <div class="mob-nav">
+          <a href="index.html" class="nav-button">TEAM PROFILE</a>
+          <a href="TeamAlphaAgenda.html" class="nav-button">MEETING AGENDA</a>
+          <a href="CareerPlans.html" class="nav-button">CAREER PLANS</a>
+          <a href="Overview.html" class="nav-button">OVERVIEW</a>
+          <a href="DetailedDescription.html" class="nav-button">DETAILED DESCRIPTION</a>
+          <a href="SkillandJobs.html" class="nav-button">SKILLS AND JOBS</a>
+          <a href="GroupReflection.html" class="nav-button">GROUP REFLECTION</a>
 
 
-    </div>
-              
-              
-          </div>
-  </header>
+
+
 
         </div>
 
 
+      </div>
+    </header>
 
-    
+  </div>
 
 
 
 
-      <div class="container">
-     <div style="width: 1000px; float:centre">
-         <div style="width: 350px; float:left;">
-          <h1 style="color: wheat; font-size:30px">Risks</h1>
-         </div>
-         <div style="width: 650px; float:right;">
-      
-         <p style="color: wheat; font-size:18px">What risks can you identify for your project? There will always be some generic risks (such as computers breaking down the night before a deadline, health and family issues, and institutional changes). Do not include generic risks such as these. The idea is to be as specific as you can to your project. For example, if your topic is to develop a game, there may be a risk that the software you choose to work with may be very difficult to learn, poorly documented, or not turn out to have the features that it claims it has. These properties are often only discovered once you have started working with the software, and so unless you have had lots of experience with the particular tool, there is always a risk that it may not work as well as you believe it should, no matter how much prior research you do. Similar comments apply to hardware. </p><br><br>
-         <p style="color: wheat; font-size:18px">There are significant risks to developing Roomyplanner that would need to be addressed further in development. Acknowledging potential problems before they happen will help us to plan accordingly and make early measures to avoid them.</p><br><br>
-         <p style="color: wheat; font-size:18px"> 
-          Our current tools for building application are HTML and CSS, since we are the most familiar with them, but it very likely that there are some features that can’t be implemented with just HTML and CSS. As this is a problem that cannot be avoided, we will put considerable effort into looking into learning about app development, understanding the different frameworks, as well as learning programming languages like JavaScript or C++ that will become useful later in the software's life cycle. </p><br><br>
-         <p style="color: wheat; font-size:18px">As the size of the user base grows, the server may get overloaded with the increased traffic and eventually become unusable. This would cause a lot of delay for users and make it harder to use the app. It seems the best practice is using a scalable web hosting service, which allows for the app to meet increasing demand by adding more servers to share the load while the developer only has to pay for what they use. Our best options are cloud services like AWS, Microsoft Azure or IBM.</p><br><br>
-         <p style="color: wheat; font-size:18px">There might be less userbase since it’s a web application. Many people bring their phones with them and use them in everyday life. Since it allows users to access the app on the go, RoomyPlanner would be best suited a mobile application. Most people expect this type of app to be on a mobile device, and might miss it entirely. The inconvenience of having to sit down at a desk to use the app may also cause users to leave the app. We are aware of this risk, and are planning to develop a mobile version if there is enough demand.</p><br><br>
-         <p style="color: wheat; font-size:18px">Cybersecurity is the large concern in this project. Web servers are vulnerable to Denial of Service (DOS) attacks, which can crash the server, or data theft. Users will be entering sensitive information when they sign up for the app, like personal details or even their bank account number for the expense manager, which makes it extremely important to protect their data. There have been many data breaches from well-trusted companies in the past few years, and a lot of Australian has been through a difficult situations, facing the risk of phone fraud or their credit accounts being stolen. In order to gain trust with users, we need to put effort into improving cybersecurity and defending against possible attacks. Understanding how a hacker would think and being able to prevent a cyberattack are our biggest obstacles, as we have limited knowledge of cybersecurity. We will plan to fix this by doing research on good security practices later in development.
-         </p><br><br>
-         </div>
-       </div>
+
+
+
+
+  <div class="container">
     <div style="width: 1000px; float:centre">
-    <div style="width: 350px; float:left;">
-      <h1 style="color: wheat; font-size:30px">Timeframe</h1>
-    </div>
-    <div style="width: 650px; float:right;">
-        <p style="color: wheat; font-size:18px">Another difficult aspect of project planning is knowing how much time to allow. You will have something like 36 hours per person for this assignment. In order to develop a plan for further work beyond the end of this course, let us assume that you will have an extra 10 hours per week per person for 10 weeks in addition to this time in order to develop your project. This means that you will have six weeks (Weeks 7 to 12) of the semester to work on your assignment, with a further 10 weeks after that. This means that your plan will be for a total of 15 weeks, with the first 6 being on this assignment. </p><br><br>
-        <p style="color: wheat; font-size:18px">You will clearly not have the extra 10 weeks to work on the project; this is intended to give you a feeling for how much you would be able to achieve in that time. This means that the first 6 weeks of your timeline will end up being your actually progress on this project, with the remaining 10 weeks being your plan for the next stages.</p><br><br>
-        <p style="color: wheat; font-size:18px">This should be presented in the form of a table, with one row for each week, specifying as best you can the work for each person for each week. This means that the first six rows of the table will describe your progress so far, and the remaining 10 your best guess at how the remaining time would work. </p><br><br>
-        <p style="color: wheat; font-size:18px">This will no doubt change as you work on your assignment, as it will give you a more precise idea about how long it will take to get things done. This is not an unchangeable contract for exactly how things will work; that is unrealistic for just about any project. The idea is to get you thinking about how exactly your time should be allocated to the various tasks involved. It is a good idea to have a milestone (i.e. a specific outcome) for each week of the project. This may include getting familiar with tools, or reading up on a particular technique or technology. You should also include time for writing up the final report and 
-
-          any other documentation. Writing reports always takes longer than you think, especially as you should expect to re-write any piece of writing that you do at least three or four times. </p><br><br>
+      <div style="width: 350px; float:left;">
+        <h1 style="color: wheat; font-size:30px">Risks</h1>
       </div>
-    </div>
-                            
+      <div style="width: 650px; float:right;">
+
+        <p style="color: wheat; font-size:18px">What risks can you identify for your project? There will always be some generic risks (such as computers breaking down the night before a deadline, health and family issues, and institutional changes). Do not include generic risks such as these. The idea is to be as specific as you can to your project. For example, if your topic is to develop a game, there may be a risk that the software you choose to work with may be very difficult to learn, poorly documented, or not turn out to have the features that it claims it has. These properties are often only discovered once you have started working with the software, and so unless you have had lots of experience with the particular tool, there is always a risk that it may not work as well as you believe it should, no matter how much prior research you do. Similar comments apply to hardware. </p><br><br>
+        <p style="color: wheat; font-size:18px">There are significant risks to developing Roomyplanner that would need to be addressed further in development. Acknowledging potential problems before they happen will help us to plan accordingly and make early measures to avoid them.</p><br><br>
+        <p style="color: wheat; font-size:18px">
+          Our current tools for building application are HTML and CSS, since we are the most familiar with them, but it very likely that there are some features that can’t be implemented with just HTML and CSS. As this is a problem that cannot be avoided, we will put considerable effort into looking into learning about app development, understanding the different frameworks, as well as learning programming languages like JavaScript or C++ that will become useful later in the software's life cycle. </p><br><br>
+          <p style="color: wheat; font-size:18px">As the size of the user base grows, the server may get overloaded with the increased traffic and eventually become unusable. This would cause a lot of delay for users and make it harder to use the app. It seems the best practice is using a scalable web hosting service, which allows for the app to meet increasing demand by adding more servers to share the load while the developer only has to pay for what they use. Our best options are cloud services like AWS, Microsoft Azure or IBM.</p><br><br>
+          <p style="color: wheat; font-size:18px">There might be less userbase since it’s a web application. Many people bring their phones with them and use them in everyday life. Since it allows users to access the app on the go, RoomyPlanner would be best suited a mobile application. Most people expect this type of app to be on a mobile device, and might miss it entirely. The inconvenience of having to sit down at a desk to use the app may also cause users to leave the app. We are aware of this risk, and are planning to develop a mobile version if there is enough demand.</p><br><br>
+          <p style="color: wheat; font-size:18px">Cybersecurity is the large concern in this project. Web servers are vulnerable to Denial of Service (DOS) attacks, which can crash the server, or data theft. Users will be entering sensitive information when they sign up for the app, like personal details or even their bank account number for the expense manager, which makes it extremely important to protect their data. There have been many data breaches from well-trusted companies in the past few years, and a lot of Australian has been through a difficult situations, facing the risk of phone fraud or their credit accounts being stolen. In order to gain trust with users, we need to put effort into improving cybersecurity and defending against possible attacks. Understanding how a hacker would think and being able to prevent a cyberattack are our biggest obstacles, as we have limited knowledge of cybersecurity. We will plan to fix this by doing research on good security practices later in development.
+          </p><br><br>
+        </div>
+      </div>
+      <div style="width: 1000px; float:centre">
+        <div style="width: 350px; float:left;">
+          <h1 style="color: wheat; font-size:30px">Timeframe</h1>
+        </div>
+        <div style="width: 650px; float:right;">
+          <p style="color: wheat; font-size:18px">Another difficult aspect of project planning is knowing how much time to allow. You will have something like 36 hours per person for this assignment. In order to develop a plan for further work beyond the end of this course, let us assume that you will have an extra 10 hours per week per person for 10 weeks in addition to this time in order to develop your project. This means that you will have six weeks (Weeks 7 to 12) of the semester to work on your assignment, with a further 10 weeks after that. This means that your plan will be for a total of 15 weeks, with the first 6 being on this assignment. </p><br><br>
+          <p style="color: wheat; font-size:18px">You will clearly not have the extra 10 weeks to work on the project; this is intended to give you a feeling for how much you would be able to achieve in that time. This means that the first 6 weeks of your timeline will end up being your actually progress on this project, with the remaining 10 weeks being your plan for the next stages.</p><br><br>
+          <p style="color: wheat; font-size:18px">This should be presented in the form of a table, with one row for each week, specifying as best you can the work for each person for each week. This means that the first six rows of the table will describe your progress so far, and the remaining 10 your best guess at how the remaining time would work. </p><br><br>
+          <p style="color: wheat; font-size:18px">This will no doubt change as you work on your assignment, as it will give you a more precise idea about how long it will take to get things done. This is not an unchangeable contract for exactly how things will work; that is unrealistic for just about any project. The idea is to get you thinking about how exactly your time should be allocated to the various tasks involved. It is a good idea to have a milestone (i.e. a specific outcome) for each week of the project. This may include getting familiar with tools, or reading up on a particular technique or technology. You should also include time for writing up the final report and
+
+            any other documentation. Writing reports always takes longer than you think, especially as you should expect to re-write any piece of writing that you do at least three or four times. </p><br><br>
+
+            <h2>Weekly Tasks<br><br></h2>
+
+            <table>
+
+              <tr>
+                <th>Week</th>
+                <th>Task</th>
+                <th>Who</th>
+                <th>Est. Hours</th>
+              </tr>
+              <tr>
+                <td></td>
+                <th>Prototype Version</th>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Week 1</td>
+                <td>Meeting x 2<br>
+                  Assemble team<br>
+                  Obtain commitment to team stability from members (eg no drop outs)<br>
+                  Organise tools ie build, documentation<br>
+                  Verbalise sketch of system<br>
+                  Start build</td>
+
+                  <td>All<br>
+                    All<br>
+                    All<br>
+                    Madhur, All<br>
+                    Anna, Madhur <br>
+                    Madhur</td>
+                    <td>28</td>
+                  </tr>
+                  <tr>
+                    <td>Week 2</td>
+                    <td>Meeting x 2<br>
+                      Technical design<br>
+                      Business design<br>
+                      Build Signup, login</td>
+                      <td>All<br>
+                        Madhur, Mark<br>
+                        Madhur, Anna<br>
+                        Madhur<br></td>
+                        <td>30</td>
+                      </tr>
+                      <tr>
+                        <td>Week 3</td>
+                        <td>Meeting x 2<br>
+                          Build chores<br>
+                          Test<br>
+                          Documentation[2]<br>
+                          Review design boundaries[3]</td>
+                          <td>All<br>
+                            Madhur, Anna<br>
+                            Madhur, Anna<br>
+                            Jing, Anna<br>
+                            Mark, Manu<br></td>
+                            <td>32</td>
+                          </tr>
+                          <tr>
+                            <td>Week 4</td>
+                            <td>Meeting x 2<br>
+                              Build bills<br>
+                              Build signup/login validations<br>
+                              Test<br>
+                              Documentation</td>
+                              <td>All<br>
+                                Anna, Madhur<br>
+                                Mark<br>
+                                Madhur, Anna<br>
+                                Jing, Anna<br></td>
+                                <td>40</td>
+                              </tr>
+                              <tr>
+                                <td>Week 5</td>
+                                <td>Meeting x 2<br>
+                                  Build shopping list<br>
+                                  Test<br>
+                                  Documentation<br>
+                                  Presentation draft<br>
+                                  Storyboard<br>
+                                  Submit assignment 5 draft<br></td>
+                                  <td>All<br>
+                                    Anna, Muhammad<br>
+                                    Madhur, Anna<br>
+                                    Jing, Anna, Muhammad<br>
+                                    Anna, Mark<br>
+                                    Anna<br>
+                                    Anna<br></td>
+                                    <td>48</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Week 6</td>
+                                    <td>Meeting x 2<br>
+                                      Final system changes/updates<br>
+                                      Team website update<br>
+                                      Presentation draft review<br>
+                                      Presentation cast<br>
+                                      Presentation video edit<br>
+                                      Submit assignment 3</td>
+                                      <td>All<br>
+                                        Madhur, All<br>
+                                        Jing, Muhammad<br>
+                                        Anna<br>
+                                        All<br>
+                                        Muhammad</td>
+                                        <td>38</td>
+                                      </tr>
+                                      <tr>
+                                        <td></td>
+                                        <th>Full function/Feature Version</th>
+                                        <td></td>
+                                        <td></td>
+                                      </tr>
+                                      <tr>
+                                        <td>Week 7</td>
+                                        <td>Meeting x 2<br>
+                                          Review learnings from prototype<br>
+                                          Draft business rules<br>
+                                          Review business rules<br>
+                                          Draft functional specifications<br>
+                                          Review functional specifications<br>
+                                          Define change control processes<br></td>
+                                          <td>All<br>
+                                            All<br>
+                                            Anna, All<br>
+                                            All<br>
+                                            Mark, Madhur, Jing, Muhammad<br>
+                                            All<br></td>
+                                            <td>60</td>
+                                          </tr>
+                                          <tr>
+                                            <td>Week 8</td>
+                                            <td>Meeting x 2<br>
+                                              Design UI<br>
+                                              Design backend</td>
+                                              <td>All<br>
+                                                Anna<br>
+                                                Mark</td>
+                                                <td>40</td>
+                                              </tr>
+                                              <tr>
+                                                <td>Week 9</td>
+                                                <td>Meeting x 2<br>
+                                                  Review UI<br>
+                                                  Build signon & login subsystem<br>
+                                                  Build backend</td>
+                                                  <td>All<br>
+                                                    All<br>
+                                                    Manu<br>
+                                                    Mark, Madhur</td>
+                                                    <td>52</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <td>Week 10</td>
+                                                    <td>Meeting x 2<br>
+                                                      Review backend<br>
+                                                      Build chores<br>
+                                                      Build backend<br>
+                                                      Walkthrough of build</td>
+                                                      <td>All<br>
+                                                        All<br>
+                                                        Anna<br>
+                                                        Mark<br>
+                                                        Madhur lead, All<br></td>
+                                                        <td>52</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td>Week 11</td>
+                                                        <td>Meeting x 2<br>
+                                                          Build bills<br>
+                                                          Walkthrough of build<br>
+                                                          Test<br>
+                                                          Systems Documentation<br></td>
+                                                          <td>All<br>
+                                                            Anna, Madhur<br>
+                                                            Madhur lead, All<br>
+                                                            Muhammad<br>
+                                                            Jing<br></td>
+                                                            <td>52</td>
+                                                          </tr>
+                                                          <tr>
+                                                            <td>Week 12</td>
+                                                            <td>Meeting x 2<br>
+                                                              Build shopping list<br>
+                                                              Walkthrough of build<br>
+                                                              End to end test<br>
+                                                              Full system review<br>
+                                                              Systems documentation<br>
+                                                              User documentation</td>
+                                                              <td>All<br>
+                                                                Anna, Muhammad<br>
+                                                                Lead Madhur, All<br>
+                                                                Muhammad<br>
+                                                                All<br>
+                                                                Jing<br>
+                                                                Anna</td>
+                                                                <td>44</td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td>Week 13</td>
+                                                                <td>Meeting x 2<br>
+                                                                  Changes for final release[6]<br>
+                                                                  Release to tier 2 & 3<br>
+                                                                  End to end test<br>
+                                                                  Security/penetration testing[7]<br>
+                                                                  Build performance test script<br>
+                                                                  Performance test<br>
+                                                                  Systems Documentation<br>
+                                                                  User documentation</td>
+                                                                  <td>All<br>
+                                                                    All<br>
+                                                                    Muhammad<br>
+                                                                    Muhammad<br>
+                                                                    Specialist contractor<br>
+                                                                    Mark<br>
+                                                                    Mark<br>
+                                                                    Jing, Anna<br>
+                                                                    Anna, Jing</td>
+                                                                    <td>44</td>
+                                                                  </tr>
+                                                                  <tr>
+                                                                    <td>Week 14</td>
+                                                                    <td>Meeting x 2<br>
+                                                                      Release to production (Tier 4)<br>
+                                                                      Test production<br>
+                                                                      Security/penetration testing<br>
+                                                                      Performance test<br>
+                                                                      Market</td>
+                                                                      <td>All<br>
+                                                                        Muhammad<br>
+                                                                        Muhammad<br>
+                                                                        Specialist contractor<br>
+                                                                        Mark<br>
+                                                                        Anna<br></td>
+                                                                        <td>42</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                        <td>Week 15</td>
+                                                                        <td>Meeting x 2<br>
+                                                                          Release<br>
+                                                                          Monitor<br>
+                                                                          Celebration<br>
+                                                                          On-going change control<br>
+                                                                          Bug fix cycle<br>
+                                                                          Plan future version(s)</td>
+                                                                          <td>All<br>
+                                                                            Muhammad<br>
+                                                                            Help desk<br>
+                                                                            All<br>
+                                                                            Muhammad<br>
+                                                                            Madhur<br>
+                                                                            All</td>
+                                                                            <td>28</td>
+                                                                          </tr>
+                                                                        </table>
+                                                                        <p>_</p>
+                                                                        <br><br>
+                                                                        <table>
+                                                                          <tr><th>Resources</th><td></td></tr>
+                                                                          <tr><td>Name</td> 	<td>Specialty</td>   </tr>
+                                                                          <tr><td>Jing</td> 	<td>Documentation lead, web development</td>   </tr>
+                                                                          <tr><td>Anna</td> 	<td>Graphics & quality assurance lead, documentation</td>   </tr>
+                                                                          <tr><td>Madhur</td> 	<td>Web development lead, documentation</td>   </tr>
+                                                                          <tr><td>Mark</td> 	<td>Design lead, coding (scripting), backend, some documentation</td>   </tr>
+                                                                          <tr><td>Muhammad</td>  	<td>Test lead, Web development, documentation</td>   </tr>
+                                                                        </table>
+                                                                        <p>_</p>
+                                                                        <br><br>
+                                                                        <table>
+                                                                          <tr><th>Platforms</th><td></td></tr>
+                                                                          <tr><td>Tier</td> 	<td> 	Purpose</td>   </tr>
+                                                                          <tr><td>1</td> 	<td> 	Development</td>   </tr>
+                                                                          <tr><td>2</td> 	<td> 	Test (created from tier 1)</td>   </tr>
+                                                                          <tr><td>3</td> 	<td> 	Production version (eg to replicate issues)</td>   </tr>
+                                                                          <tr><td>4</td> 	<td> 	Production</td>   </tr>
+                                                                        </table>
+
+
+
+                                                                        <h1><br><br>[1]Somewhat built reactive to what the team was researching and learning “on the fly” especially for technical tasks. Kudos (IMO) to the team in this regard (and on Assignment 2) as most techniques used are scheduled for study later in course, thus were researched independently.<br>
+                                                                          [2]Documentation relates to the written component of the assignment. While it is a line item, it is a large body of divers work.<br>
+                                                                          [3]It became evident of the heightened risk to build a full featured system for the assignment eg with backend database on the cloud. Reviewed in light of this being a foundation subject, time constraints and understanding of hosting requirement. Discussed with Tutor (Luka) on a 1:team meeting. Prototype system developed.<br>
+                                                                          [4]Production version requires much more rigour around specification, change control and task sign offs c/w protoype.<br>
+                                                                          [5]A further 10 weeks does seem a bit tight to complete the project mainly due to some unknowns – again eg incorporation of host cloud database<br>
+                                                                          [6]Limited to minor changes, need discipline to schedule more substantial change/additions for future version(s).<br>
+                                                                          [7]This is a very specialised area with constantly changing threats and techniques. Specialist required.<br><br>
+
+                                                                          Gantt Chart <br><br>
+
+                                                                          A Gantt chart is popular method of defining tasks and subsequently displaying progress against those tasks. A Gannt chart shows detail about the task itself in the Work Breakdown Schedule, the anticipated timeframe to complete that task, and resources needed to undertake each task. Important features of the chart is showing which tasks are required to be completed before beginning the “next” task, or which tasks can be completed in tandem particularly in cases where resources are quite plentiful. <br><br>
+
+                                                                          While not having access to MS Project and free alternatives not really being available (seemed to be email address harvesters from what I could see), I have used a spreadsheet based system to demonstrate knowledge of the Gantt principles. While the spreadsheet has limited functionality and therefore is quite clunky to use, hopefully, through outlining the Gantt system in these paragraphs and making a chart showing an example of tasks, we have demonstrated that we understand the use of such charts as a visual indicator of progress of the development lifecycle, and look forward to using professional software for this purpose. <br><br>
+
+                                                                          Example Gantt chart showing a build test cycle: </h1>
+
+
+
+                                                                          <br><br>
+
+                                                                          <img src="ppverIV.jpg" alt="Gantt Chart" style="width:1000px;height:700px;">
+
+                                                                          <h1><br><br>The chart above shows situations where certain tasks must be undertaken in sequence, and others that can be completed in parallel. For example, the build can only be undertaken following completion of the functional Specifications. We can also see that since there are two developers, the UI and databases can be built concurrently. The chart above shows situations where certain tasks must be undertaken in sequence, and others that can be completed in parallel. For example, the build can only be undertaken following completion of the functional Specifications. We can also see that since there are two developers, the UI and databases can be built concurrently.<br><br></h1>
+
+
+
+
+
+
+
+          </div>
+        </div>
+
 
 
 
 
 
       </div>
-    <div class="footer-container">
-                            <footer>
+      <div class="footer-container">
+        <footer>
 
 
-                            </footer>
+        </footer>
 
 
       </div>
 
       <script
-    src="https://code.jquery.com/jquery-3.6.0.js"
-    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-    crossorigin="anonymous"></script>
-    <script src="js.js"></script>
-</body>
-</html>
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"></script>
+      <script src="js.js"></script>
+    </body>
+    </html>
