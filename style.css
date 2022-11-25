@@ -34,7 +34,7 @@ body {
   float:none;
   width:700px;
   padding: 300px 50px 100px 60px;
-  border;100px
+  border:100px;
   color:white;
   font-size:20px;
 
@@ -48,9 +48,8 @@ body {
     width: 100%;
     /* position: fixed; */
     box-shadow: 10px 20px 100px  rgba(98, 15, 150, 0.985);
-    /* border-radius: 20px; */rgba
-      width: 100%;
-}
+    /* border-radius: 20px; */}
+      
 
 header {
     /* background-color: black; */
@@ -93,7 +92,7 @@ a {
 
 .container {
 
-min-height: 500px;
+min-height: 800px;
 max-width: 1024px;
 margin: 0 auto;
 display: flex;
@@ -312,7 +311,6 @@ nav {
      background-color: blue;
 }
 
-}
 
 /* Mobile view */
 
